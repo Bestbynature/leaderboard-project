@@ -37,7 +37,7 @@
 
 # 📖 [LeaderBoard Project] <a name="about-project"></a>
 
-**[LeaderBoard Project](https://bestbynature.github.io/leaderboard-project/)** is a a basic website that allows users to add and/or remove activities from a list of refistered activities on the website. The Project is achieved by using JavaScript objects and arrays. The project also implemented features that dynamically modify the DOM and add basic events and listeners..
+**[LeaderBoard Project](https://bestbynature.github.io/leaderboard-project/)** is a JavaScript project that builds the Leaderboard list app, using webpack and ES6 features (notably modules). It employs the Leaderboard API using JavaScript async and await, with some nice styling.
 
 ## 🛠 Built With <a name="built-with"></a>
 
