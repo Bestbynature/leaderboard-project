@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: bisque;
+  background-color: rgba(255, 228, 196, 0.5);
   padding: 1rem;
 }
 
@@ -20,6 +20,7 @@ main {
   flex-direction: column;
   width: 40%;
   margin: 3rem;
+  background-color: rgba(255, 228, 196, 0.9);
 }
 
 .recent-heading {
@@ -27,6 +28,9 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  border: 2px solid gray;
+  padding: 4px;
+  border-radius: 10px;
 }
 
 .recent-heading button {
@@ -56,7 +60,7 @@ main {
 
 table {
   border: 2px solid black;
-  padding: 0;
+  border-radius: 10px;
 }
 
 tr {
@@ -81,10 +85,15 @@ td {
   flex-direction: column;
   width: 40%;
   margin: 3rem;
+  background: url(../Assets/OIP.jpg);
+  border-radius: 10px;
 }
 
 .add-heading {
   margin-bottom: 1rem;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 .add-form {
@@ -94,19 +103,24 @@ td {
 
 .add-form input {
   height: 3rem;
-  margin: 0.5rem 0.5rem 0.7rem 0;
+  margin: 0.5rem 0 0.7rem 0;
   outline: none;
   padding: 0.7rem;
+}
+
+.add-form input:focus {
+  box-shadow: 0 0 3px 4px;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   main {
     flex-direction: column-reverse;
     align-items: center;
+    padding-right: 0;
   }
 
   .add,
   .recent {
-    width: 70%;
+    width: 100%;
   }
 }
