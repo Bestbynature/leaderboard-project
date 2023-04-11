@@ -20,7 +20,7 @@ main {
   flex-direction: column;
   width: 40%;
   margin: 3rem;
-  background-color: rgba(255, 228, 196, 0.9);
+  background-color: rgb(248, 209, 161);
 }
 
 .recent-heading {
