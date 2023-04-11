@@ -13,7 +13,7 @@ const sendData = async (a, b) => {
 const main = async (a, b) => {
   const result = await sendData(a, b);
   const message = document.querySelector('.post-message');
-  message.innerHTML = result.result;
+  message.innerHTML = `${result.result}, please click the refresh button to view the updated list`;
   setTimeout(() => {
     message.innerHTML = '';
   }, 5000);

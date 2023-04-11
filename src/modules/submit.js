@@ -9,7 +9,7 @@ const submit = () => {
   const pName = name.value;
   const pScore = score.value;
   const post = document.querySelector('.post-message');
-  post.innerHTML = 'Loading...';
+  post.innerHTML = 'Uploading the result, please wait...';
   main(pName, pScore);
   name.value = '';
   score.value = '';
