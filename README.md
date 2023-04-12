@@ -39,6 +39,8 @@
 
 **[LeaderBoard Project](https://bestbynature.github.io/leaderboard-project/)** is a JavaScript project that builds the Leaderboard list app, using webpack and ES6 features (notably modules). It employs the Leaderboard API using JavaScript async and await, with some nice styling. The application contains two buttons - `Refresh` and `Submit`. Clicking the `Submit` button after filling the name and score input will perform a `POST` method on the API and bring back a confirmatory message in the DOM (which disappears after 5 seconds). In contrast, clicking the `Refresh` button performs a `GET` method and pulls the currently available data, with respect to the already programmed GameID, from the API and displays the full list in the DOM.
 
+[Leaderboard App Demonstration](https://www.loom.com/share/f217408d13ca4526a5cca7610f846c1b)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
